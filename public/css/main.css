@@ -1,0 +1,33 @@
+body {
+	margin-top: 1em;
+	background: #43474c;
+	color: #eee;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #fff;
+}
+
+#editor { 
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 1em;
+}
+
+#textarea {
+	position: absolute;
+	left: -9999px;
+}
+
+.submit {
+	float: right;
+}
+
+code {
+	background: #222;
+    color: #aaa;
+    padding: 3px 10px;
+    border: 0;
+}

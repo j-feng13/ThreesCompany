@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
 <head>
-	<meta charset="UTF-8">
-	<title>Threes Co</title>
+<script type="text/javascript" src="public/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/js/three.min.js"></script>
+<script type="text/javascript" src="public/js/index.js"></script>
 
-	<script type="text/javascript" src="public/js/three.min.js"></script>
-	<script type="text/javascript" src="public/js/jquery.slim.min.js"></script>
-	<script type="text/javascript" src="public/js/index.js"></script>
-	<link type="text/css" rel="stylesheet" src="public/css/normalize.css">
-	<link type="text/css" rel="stylesheet" src="public/css/skeleton.css">
+<link type="text/css" rel="stylesheet" href="public/css/normalize.css">
+<link type="text/css" rel="stylesheet" href="public/css/skeleton.css">
+<link type="text/css" rel="stylesheet" href="public/css/main.css">
+<title>Three.js in Action</title>
 </head>
 <body>
-	<h1>Let's have a threesome.</h1>
 
-	<div id="container"></div>
+<div class="container">
+	<div class="navbar">
+		<h3>Three.js in Action</h3>
+	</div>
+
+	<div class="row">
+		<div class="twelve columns">
+			<p>You’re in charge of the next hit blockbuster movie and the studio has appointed you to deliver big! Unfortunately, the studio doesn't have much of a budget and didn't give you lot to work with. You have no set, no actor, no lighting, and no idea where to start! Luckily, you know someone who can help! <strong>Three.js</strong>!</p>
+			<hr>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="five columns">
+			<h5>Lesson 1: Set Up A Scene</h5>
+			<p>
+				Before we can start filming we’re going to need a set, so let’s walk into the room and set up a few things to get started.
+			</p>
+			<p>
+				The first thing we'll need to do is define a renderer. We've provided that in the editor for you, ie: <code>var renderer = new THREE.WebGLRenderer();</code>
+			</p>
+		</div>
+		<div class="six columns">
+			<form action="/test/1" method="POST">
+				<div id="editor">// set the scene size
+
+var renderer = new THREE.WebGLRenderer();
+
+var camera =
+  new THREE.PerspectiveCamera(
+    VIEW_ANGLE,
+    ASPECT,
+    NEAR,
+    FAR);
+
+var scene = new THREE.Scene();
+
+scene.add(camera);
+
+camera.position.z = 300;
+
+renderer.setSize(WIDTH, HEIGHT);
+
+$container.append(renderer.domElement);</div>
+<textarea name="code" id="textarea"></textarea>
+				<input type="button" class="submit button-primary" value="Submit">
+			</form>
+		</div>
+	</div>
+</div>
+    
+<script src="public/js/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    
+</script>
 </body>
 </html>

@@ -23,12 +23,14 @@
   "homepage": "https://github.com/j-feng13/ThreesCompany#readme",
   "dependencies": {
     "body-parser": "^1.15.1",
+    "ace-builds": "^1.2.2",
     "express": "^4.14.0",
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "jasmine": "^2.4.1",
     "jasmine-node": "^1.14.5",
     "jquery": "^3.0.0",
+    "node-router": "^0.1.5",
     "three": "^0.78.0"
   }
 }
