@@ -1,0 +1,29 @@
+{
+  "name": "threes-co",
+  "version": "1.0.0",
+  "description": "Gamified three.js tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-feng13/ThreesCompany.git"
+  },
+  "keywords": [
+    "three",
+    "webgl",
+    "tutorial"
+  ],
+  "author": "Brian Garbarz, Jonathan Feng, Zurab Shubitidze, Kyler Berry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-feng13/ThreesCompany/issues"
+  },
+  "homepage": "https://github.com/j-feng13/ThreesCompany#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "three": "^0.78.0"
+  }
+}
